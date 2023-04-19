@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>My Favorite food App</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="containerTitle">
+      <title>My Favorite food App</title>
+   </div>
+   <div class="slider">
+      <div class="slider-item">
+         <img src="./assets/cachopu.jpeg" alt="Imagen 1">
+      </div>
+      <div class="slider-item">
+         <img src="./assets/cazuela.jpeg" alt="Imagen 2">
+      </div>
+      <div class="slider-item">
+         <img src="./assets/ensalda.jpg" alt="Imagen 3">
+      </div>
+   </div>
+   <div class="appContainer">
+<div>
+   <h1>Selecciona tus ingredientes</h1>
+   <form>
+      <ul>
+         <li><input type="checkbox" name="ingredientes[]" value="tomate"> Tomate</li>
+         <li><input type="checkbox" name="ingredientes[]" value="cebolla"> Cebolla</li>
+         <li><input type="checkbox" name="ingredientes[]" value="pimiento"> Pimiento</li>
+         <li><input type="checkbox" name="ingredientes[]" value="pollo"> Pollo</li>
+      </ul>
+      <button type="submit">Obtener Receta</button>
+   </form>
+</div>
+<div id="receta">Preparation</div>
+<div id="tiempo">Time</div>
+   </div>
+</body>
+<script src="script.js"></script>
+
+</html>
